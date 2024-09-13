@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sujeitogram - Sua rede social</title>
+    <title>Faça seu cadastro - Sujeitogram</title>
 </head>
 <body>
     <div id="wrapper">
 
         <!--AREA CONTAINER-->
-        <div id="container">
+        <div id="container-signup">
 
-            <!--AREA ESQUERDA-->
-            <div class="column left">
-                <div class="main"></div>
-            </div>
-            <!--FIM AREA ESQUERDA-->
-
-            <!--AREA DIREITA-->
-            <div class="column right">
+                        <!--AREA DIREITA-->
+            <div class="column">
                 <div class="login-panel">
                     <div class="logo">
                         <img class="logo-img" src="./assets/logo.png" alt="Logo do Sujeitogram">
                     </div>
                 
+                    <div class="message">
+                        <span>Cadastre-se para ver fotos e vídeos dos meus amigos</span>
+                    </div>
+
+                    <button class="cta-button">
+                        Entrar com Facebook
+                    </button>
+
+                    <div class="divisor-container">
+                        <div class="line"></div>
+                        <div class="divisor-tag">ou</div>
+                        <div class="line"></div>
+                    </div>
 
                 <form>
-                    <input type="text" placeholder="Telefone, usuário ou e-mail" name="username">
+                    <input type="text" placeholder="Número de celular ou e-mail" name="email">
+                    <input type="text" placeholder="Nome completo" name="name">
+                    <input type="text" placeholder="Nome do Usuário" name="username">
                     <input type="password" placeholder="Senha" name="password">
 
                     <input type="submit" value="Entrar">
@@ -35,7 +44,7 @@
             </div>
 
             <div class="infobox">
-                <p>Não possui uma conta? <a href="signup.html">Cadastre-se</a></p>
+                <p>Tem uma conta? <a href="index.html">Conecte-se</a></p>
             </div>
 
             <div class="get-app-panel">
